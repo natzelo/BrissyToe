@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    margin: 100px;
+    margin: 100px auto 100px auto;
     text-align: center;
     font-family: 'Bungee Shade';
 }
@@ -13,12 +13,19 @@ img {
     width: 30%;
 }
 
+@media (max-width: 768px) {
+  img{
+    width: 60%;
+  }
+}
+
 .container {
     text-align: center;
 }
 
 .navbar {
     padding: 30px 10% 20px;
+    background-color: #84a9ac !important;
   }
   .navbar-brand {
     font-family: 'Bungee Inline';

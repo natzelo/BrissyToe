@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 p {
@@ -15,6 +16,9 @@ p {
   font-size: 2rem;
 }
 
+.title {
+  overflow: hidden;
+}
 
 hr {
   border-style: dashed none none none;
@@ -31,6 +35,8 @@ hr {
 
 .navbar {
   padding: 30px 10% 20px;
+  background-color:  #e4e3e3 !important;
+  /* box-shadow: 10px 10px 10px #000; */
 }
 .navbar-brand {
   font-family: 'Bungee Inline';
@@ -42,7 +48,7 @@ hr {
 
 .greeting {
   margin-top: 40%;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Bungee Shade';
 }
 
