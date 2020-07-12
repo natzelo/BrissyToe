@@ -1,0 +1,29 @@
+body {
+    background-color: #84a9ac;
+    color: #fff;
+}
+
+h1 {
+    margin: 100px;
+    text-align: center;
+    font-family: 'Bungee Shade';
+}
+
+img {
+    width: 30%;
+}
+
+.container {
+    text-align: center;
+}
+
+.navbar {
+    padding: 30px 10% 20px;
+  }
+  .navbar-brand {
+    font-family: 'Bungee Inline';
+  }
+  
+  .nav-link {
+    font-weight: 600;
+  }

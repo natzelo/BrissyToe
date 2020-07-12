@@ -1,0 +1,184 @@
+/* GENERAL CSS */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+}
+.title img {
+  width: 100%;
+}
+
+.title p {
+  font-size: 2rem;
+}
+
+
+hr {
+  border-style: dashed none none none;
+  border-spacing: 3px;
+  border-width: 5px;
+  border-color: #fff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+ 
+}
+
+/* NAVBAR CSS */
+
+.navbar {
+  padding: 30px 10% 20px;
+}
+.navbar-brand {
+  font-family: 'Bungee Inline';
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.greeting {
+  margin-top: 40%;
+  font-size: 5rem;
+  font-family: 'Bungee Shade';
+}
+
+/* HEADING SECTION */
+
+#heading {
+  background-color: #e4e3e3;
+  padding-top: 100px ;
+  padding-bottom: 100px;
+}
+
+.content {
+  text-align: center;
+}
+
+
+/* ABOUT SECTION */
+
+#about {
+  background-color: #84a9ac;
+  padding-top: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+
+#about img { 
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+#about p {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+
+/* FOOTER */
+
+#footer {
+  text-align: center;
+  background-color: #3b6978;
+  color: #fff;
+  padding: 30px;
+  
+}
+
+
+#footer p {
+  font-size: 1rem;
+}
+
+.fa-envelope {
+  color: #fff;
+
+}
+
+.fa-envelope:hover {
+  color: #f4f4f4
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TITLE SECTION */
+
+/* #heading {
+  background-color: #e4e3e3;
+}
+
+.navbar-brand {
+  font-family: 'Bungee Inline', cursive;
+}
+
+.title img {
+  width: 50%;
+}
+
+.content {
+  margin: auto;
+}
+
+.content h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 400%;
+}
+
+.content p {
+  font-size: 1.5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-arounds;
+}
+
+@media (max-width: 700px) {
+  .title {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+  }
+
+
+  .title .content, .title img{
+    position: absolute;
+  }
+
+  .content  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    bottom: 0px;
+    
+  }
+
+  .title img{
+    top: 0;
+  } 
+} */
