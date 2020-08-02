@@ -1,3 +1,4 @@
+@import "anim.css";
 /* GENERAL CSS */
 
 body {
@@ -62,6 +63,11 @@ hr {
 
 .content {
   text-align: center;
+  animation: left-slide-in 1s both;
+}
+
+.landing-image {
+  animation: right-slide-in 1s both;
 }
 
 
@@ -75,17 +81,21 @@ hr {
   padding-bottom: 100px;
   text-align: center;
   color: #fff;
+
 }
+
 
 
 #about img { 
-  width: 50%;
+  width: 70%;
   padding-bottom: 50px;
+ 
 }
 
-#about p {
+.col-md-6 .about-txt {
   text-align: justify;
   padding-bottom: 20px;
+  width: 100%;
 }
 
 
@@ -112,79 +122,3 @@ hr {
 .fa-envelope:hover {
   color: #f4f4f4
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* TITLE SECTION */
-
-/* #heading {
-  background-color: #e4e3e3;
-}
-
-.navbar-brand {
-  font-family: 'Bungee Inline', cursive;
-}
-
-.title img {
-  width: 50%;
-}
-
-.content {
-  margin: auto;
-}
-
-.content h1 {
-  font-family: 'Bungee Shade', cursive;
-  font-size: 400%;
-}
-
-.content p {
-  font-size: 1.5rem;
-}
-
-.title {
-  display: flex;
-  justify-content: space-arounds;
-}
-
-@media (max-width: 700px) {
-  .title {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 50vh;
-  }
-
-
-  .title .content, .title img{
-    position: absolute;
-  }
-
-  .content  {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    bottom: 0px;
-    
-  }
-
-  .title img{
-    top: 0;
-  } 
-} */
