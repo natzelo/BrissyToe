@@ -2,7 +2,7 @@
 /* GENERAL CSS */
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
 
@@ -29,18 +29,17 @@ hr {
   margin-top: 100px;
   margin-bottom: 100px;
   width: 100%;
- 
 }
 
 /* NAVBAR CSS */
 
 .navbar {
   padding: 30px 10% 20px;
-  background-color:  #e4e3e3 !important;
+  background-color: #e4e3e3 !important;
   /* box-shadow: 10px 10px 10px #000; */
 }
 .navbar-brand {
-  font-family: 'Bungee Inline';
+  font-family: "Bungee Inline";
 }
 
 .nav-link {
@@ -50,14 +49,14 @@ hr {
 .greeting {
   margin-top: 40%;
   font-size: 4rem;
-  font-family: 'Bungee Shade';
+  font-family: "Bungee Shade";
 }
 
 /* HEADING SECTION */
 
 #heading {
   background-color: #e4e3e3;
-  padding-top: 100px ;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -70,7 +69,6 @@ hr {
   animation: right-slide-in 1s both;
 }
 
-
 /* ABOUT SECTION */
 
 #about {
@@ -81,15 +79,14 @@ hr {
   padding-bottom: 100px;
   text-align: center;
   color: #fff;
-
+}
+.is-visible {
+  animation: zoom-in 0.5s both;
 }
 
-
-
-#about img { 
+#about img {
   width: 70%;
   padding-bottom: 50px;
- 
 }
 
 .col-md-6 .about-txt {
@@ -98,7 +95,6 @@ hr {
   width: 100%;
 }
 
-
 /* FOOTER */
 
 #footer {
@@ -106,9 +102,7 @@ hr {
   background-color: #3b6978;
   color: #fff;
   padding: 30px;
-  
 }
-
 
 #footer p {
   font-size: 1rem;
@@ -116,9 +110,8 @@ hr {
 
 .fa-envelope {
   color: #fff;
-
 }
 
 .fa-envelope:hover {
-  color: #f4f4f4
+  color: #f4f4f4;
 }
